@@ -5,3 +5,8 @@ Fonctionnalités mises en place :
 - Utilisation de PDO
 - Passsage en GET
 - JSON
+
+Fonctionnalités prévues :
+- Utilisation de GCM pour notifications
+- Salage avec clé aléatoire
+- Système de bannissement
