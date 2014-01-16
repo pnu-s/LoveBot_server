@@ -1,10 +1,11 @@
-LoveBot - Partie serveur
+LoveBot - Partie Serveur
 =====
 Fonctionnalités mises en place :
 - Génération de Token
 - Utilisation de PDO
 - Passsage en GET
-- JSON
+- Blocage du bruteforce
+- Données envoyées en JSON
 
 Fonctionnalités prévues :
 - Utilisation de GCM pour notifications
