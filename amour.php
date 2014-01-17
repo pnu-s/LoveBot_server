@@ -5,7 +5,7 @@ require_once('model/user.php');
 
 //Récupération des paramètres GET + chiffrement du numéro ciblé pour comparaison avec BDD
 $parameters[":user1"] = $_GET["user1"];
-$parameters[":user2"] = md5($_GET["user2"]);
+$parameters[":user2"] = md5(intval($_GET["user2"]));
 
 //Connexion à la BDD
 $config = require_once('config.php');
